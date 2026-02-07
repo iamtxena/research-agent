@@ -1,0 +1,29 @@
+{
+  "name": "gemini-research-agent",
+  "version": "0.1.0",
+  "description": "AI SDK agent for deep research on files, videos, and web content using Gemini",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "research": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "bun build src/cli.ts --outdir dist --target node",
+    "dev": "bun run src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.0",
+    "@google/genai": "^1.0.0",
+    "ai": "^4.3.0",
+    "commander": "^13.1.0",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": ["gemini", "ai", "research", "file-search", "ai-sdk"],
+  "author": "Albert Solana",
+  "license": "MIT"
+}
