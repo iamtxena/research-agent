@@ -15,8 +15,8 @@ AI-powered research agent using Gemini and AI SDK. Supports deep research on fil
 
 ```bash
 # Clone the repo
-git clone https://github.com/iamtxena/gemini-research-agent.git
-cd gemini-research-agent
+git clone https://github.com/iamtxena/research-agent.git
+cd research-agent
 
 # Install dependencies
 bun install
@@ -84,7 +84,7 @@ bun run dev file ./code.ts "Review this code for security issues" -t medium
 ## Programmatic Usage
 
 ```typescript
-import { researchWeb, analyzeYouTube, researchFileStore } from 'gemini-research-agent';
+import { researchWeb, analyzeYouTube, researchFileStore } from 'research-agent';
 
 // Web research
 const result = await researchWeb('Latest AI news', {

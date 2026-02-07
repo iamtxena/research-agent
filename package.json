@@ -1,5 +1,5 @@
 {
-  "name": "gemini-research-agent",
+  "name": "research-agent",
   "version": "0.1.0",
   "description": "AI SDK agent for deep research on files, videos, and web content using Gemini",
   "type": "module",
